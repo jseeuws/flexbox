@@ -1,0 +1,55 @@
+body > section{
+  max-width: 1250px;
+  margin: auto;
+}
+
+.container > div{
+  flex-basis: 600px;
+}
+
+.container2{
+  color: grey;
+}
+
+.container{
+display: flex;
+text-align: center;
+align-content: center;
+justify-content: center;
+
+}
+
+.container2{
+  display: flex;
+  align-content: flex-end;
+  text-align: center;
+
+}
+
+.box{
+	width:100px;
+	height:100px;
+}
+
+header{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background: #000000;
+  color:#ffffff;
+  height: 170px;
+
+  width: 100%;
+}
+
+header h1 {
+    margin: 100px;
+    margin:0;
+    padding:0;
+}
+
+body {
+   height:100%;
+   margin:0;
+   padding:0
+}
